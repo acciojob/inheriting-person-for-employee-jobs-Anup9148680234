@@ -1,6 +1,6 @@
 // complete this js code
 class Person {
-	constructor{
+	constructor(name,age){
 		this._name = name;
 		this._age = age;
 	}
@@ -19,6 +19,9 @@ class Employee extends Person {
 		console.log("Hello, my name is "+name+," I am "+age+" years old, and my job title is "+jobTitle+".")
 	}
 }
+
+Person x = new Person("anup",23);
+greet();
 
 // Do not change code below this line
 window.Person = Person;
