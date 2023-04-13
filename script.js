@@ -16,7 +16,7 @@ class Employee extends Person {
 		this._jobTtitle = jobTitle
 	}
 	jobGreet(){
-		console.log("Hello, my name is "+name+," I am "+age+" years old, and my job title is "+jobTitle+".")
+		console.log("Hello, my name is "+name+" I am "+age+" years old, and my job title is "+jobTitle+".")
 	}
 }
 
